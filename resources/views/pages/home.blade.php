@@ -165,9 +165,9 @@
     
     .slide-1 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide1.jpg'); }
     .slide-2 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide2.jpg'); }
-    .slide-3 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('.jpg'); }
-    .slide-4 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide4.jpg'); }
-    .slide-5 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide5.png'); }
+    .slide-3 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide3.jpeg'); }
+    .slide-4 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide4.jpeg'); }
+    .slide-5 { background-image: linear-gradient(rgba(0, 51, 102, 0.5), rgba(0, 102, 153, 0.3)), url('/image/tuktuk/slide5.jpeg'); }
     
     .hero-content {
         position: absolute;
@@ -347,7 +347,7 @@
     }
     
     /* ==================== SECTION UMUM ==================== */
-    .section { padding: 90px 0; position: relative; overflow: hidden; }
+    .section { padding: 40px 0; position: relative; overflow: hidden; }
     .section-white { background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%); }
     .section-light { background: linear-gradient(135deg, #e0ecf7 0%, #d4e4f2 100%); }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
@@ -367,7 +367,7 @@
     .section::after {
         content: '✦';
         position: absolute;
-        font-size: 6rem;
+        font-size: 6rem
         color: rgba(198, 164, 59, 0.05);
         top: -30px;
         left: -30px;
@@ -907,6 +907,8 @@
     
     /* ==================== PETA LOKASI ==================== */
     .maps-container {
+        max-width: 900px;
+        margin: 0 auto;
         background: white;
         border-radius: 24px;
         overflow: hidden;
@@ -1170,6 +1172,8 @@
         .dot.active { width: 20px; }
         .maps-container iframe { height: 220px; }
     }
+
+    
     /* ===== MUSIK LATAR ===== */
 .music-card{
     position:fixed;
@@ -1411,7 +1415,7 @@
 
 <!-- ==================== PETA LOKASI 3 DESA ==================== -->
 <section class="section section-light">
-    <div class="container">
+    <div class="container lokasi-wrapper">
         <div class="section-title" data-aos="fade-up" data-aos-duration="800">
             <h2>Lokasi 3 Geosite</h2>
             <div class="divider"></div>
